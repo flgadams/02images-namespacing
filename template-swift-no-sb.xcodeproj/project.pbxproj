@@ -12,6 +12,7 @@
 		2102187A2895B92300195DC9 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210218792895B92300195DC9 /* RootViewController.swift */; };
 		2102187F2895B92400195DC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2102187E2895B92400195DC9 /* Assets.xcassets */; };
 		210218822895B92400195DC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210218802895B92400195DC9 /* LaunchScreen.storyboard */; };
+		215D480128AEFD1900808BE6 /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 215D480028AEFD1900808BE6 /* dog.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2102187E2895B92400195DC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		210218812895B92400195DC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		210218832895B92400195DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		215D480028AEFD1900808BE6 /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		210218742895B92300195DC9 /* template-swift-no-sb */ = {
 			isa = PBXGroup;
 			children = (
+				215D47FF28AEFCDB00808BE6 /* pix */,
 				210218752895B92300195DC9 /* AppDelegate.swift */,
 				210218772895B92300195DC9 /* SceneDelegate.swift */,
 				210218792895B92300195DC9 /* RootViewController.swift */,
@@ -62,6 +65,14 @@
 				210218832895B92400195DC9 /* Info.plist */,
 			);
 			path = "template-swift-no-sb";
+			sourceTree = "<group>";
+		};
+		215D47FF28AEFCDB00808BE6 /* pix */ = {
+			isa = PBXGroup;
+			children = (
+				215D480028AEFD1900808BE6 /* dog.png */,
+			);
+			path = pix;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				215D480128AEFD1900808BE6 /* dog.png in Resources */,
 				210218822895B92400195DC9 /* LaunchScreen.storyboard in Resources */,
 				2102187F2895B92400195DC9 /* Assets.xcassets in Resources */,
 			);
