@@ -61,6 +61,7 @@
 				210218772895B92300195DC9 /* SceneDelegate.swift */,
 				210218792895B92300195DC9 /* RootViewController.swift */,
 				2102187E2895B92400195DC9 /* Assets.xcassets */,
+				215D480228AF09C100808BE6 /* New Group */,
 				210218802895B92400195DC9 /* LaunchScreen.storyboard */,
 				210218832895B92400195DC9 /* Info.plist */,
 			);
@@ -73,6 +74,13 @@
 				215D480028AEFD1900808BE6 /* dog.png */,
 			);
 			path = pix;
+			sourceTree = "<group>";
+		};
+		215D480228AF09C100808BE6 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
